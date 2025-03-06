@@ -1,0 +1,28 @@
+{
+  "name": "real-world-app-tests",
+  "version": "1.0.0",
+  "description": "Tests for the Real World App",
+  "main": "index.js",
+  "dependencies": {
+    "fsevents": "^2.3.2",
+    "playwright": "^1.50.1",
+    "playwright-core": "^1.50.1",
+    "undici-types": "^6.20.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.9"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlomeli/real-world-app-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlomeli/real-world-app-tests/issues"
+  },
+  "homepage": "https://github.com/jlomeli/real-world-app-tests#readme"
+}
