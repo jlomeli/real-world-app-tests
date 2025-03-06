@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 06 22:09:03 GMT 2025","Thu Mar 06 22:09:03 GMT 2025","302","UI Tests","ui/login/login.spec.ts","Login Tests","","","Sign in page is loaded",""
