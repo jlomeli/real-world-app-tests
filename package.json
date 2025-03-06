@@ -9,8 +9,9 @@
     "undici-types": "^6.20.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.50.1",
-    "@types/node": "^22.13.9"
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.9",
+    "allure-playwright": "^3.2.0"
   },
   "optionalDependencies": {
     "fsevents": "^2.3.2"
