@@ -7,6 +7,6 @@ test.describe('Login Tests', () => {
 
   test('Sign in page is loaded', async ({ page }) => {  
     // Expect a title "to contain" a Sign in.
-    await expect(page.getByRole('heading', {name: 'Sign in'})).toBeVisible();
+    await expect(page.getByText('Swag Labs')).toBeVisible();
   });
 });

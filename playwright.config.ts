@@ -45,7 +45,7 @@ export default defineConfig({
       name: 'UI Tests',
       testDir: './tests/ui',
       use: {
-        baseURL: 'http://localhost:3000/signin'
+        baseURL: 'https://www.saucedemo.com/'
       }
     },
     /* Test against Desktop browsers
