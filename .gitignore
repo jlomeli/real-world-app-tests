@@ -137,3 +137,6 @@ dist
 
 # Allure Report
 /allure-results/
+
+# ENV files
+.env
