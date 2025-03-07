@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Mar 07 23:48:27 GMT 2025","Fri Mar 07 23:48:28 GMT 2025","1003","UI Tests","ui/login/login.spec.ts","Login Tests","","","Login with invalid credentials",""
+"failed","Fri Mar 07 23:48:30 GMT 2025","Fri Mar 07 23:48:30 GMT 2025","299","UI Tests","ui/login/login.spec.ts","Login Tests","","","Login with locked out user",""
+"passed","Fri Mar 07 23:48:22 GMT 2025","Fri Mar 07 23:48:22 GMT 2025","397","UI Tests","ui/login/login.spec.ts","Login Tests","","","Sign in page is loaded",""
+"failed","Fri Mar 07 23:48:25 GMT 2025","Fri Mar 07 23:48:26 GMT 2025","1088","UI Tests","ui/login/login.spec.ts","Login Tests","","","Login with valid credentials",""
