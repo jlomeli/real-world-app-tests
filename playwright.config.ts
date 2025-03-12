@@ -46,7 +46,8 @@ export default defineConfig({
       name: 'UI Tests',
       testDir: './tests/ui',
       use: {
-        baseURL: 'https://www.saucedemo.com/'
+        baseURL: 'https://www.saucedemo.com/',
+        ...devices['Desktop Chrome']
       }
     },
     /* Test against Desktop browsers

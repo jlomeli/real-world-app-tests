@@ -140,3 +140,6 @@ dist
 
 # ENV files
 .env
+
+# Mac Storage
+.DS_Store
