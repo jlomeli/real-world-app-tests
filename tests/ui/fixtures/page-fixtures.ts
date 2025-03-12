@@ -2,10 +2,10 @@ import { test as base } from '@playwright/test';
 import { LoginPage } from '../pom/login-page';
 import { HomePage } from '../pom/home-page';
 
-type MyFixtures = {
+interface MyFixtures {
     loginPage: LoginPage;
     homePage: HomePage;
-};
+}
 
 export const test = base.extend<MyFixtures>({
     loginPage: async ({ page }, use) => {

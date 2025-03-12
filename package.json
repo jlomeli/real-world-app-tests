@@ -9,15 +9,27 @@
     "undici-types": "^6.20.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.22.0",
     "@playwright/test": "^1.51.0",
     "@types/node": "^22.13.9",
     "allure-playwright": "^3.2.0",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "eslint": "^9.22.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.1"
   },
   "optionalDependencies": {
     "fsevents": "^2.3.2"
   },
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "playwright test",
+    "test:allure": "playwright test --reporter=allure-playwright",
+    "test:allure:open": "allure open",
+    "test:allure:generate": "allure generate --clean",
+    "test:allure:serve": "allure serve"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jlomeli/real-world-app-tests.git"
