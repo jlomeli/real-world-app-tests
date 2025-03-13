@@ -7,7 +7,7 @@ test.describe('Login Tests', () => {
     await loginPage.visit();
   });
 
-  test('Sign in page is loaded', async ({ loginPage }) => {  
+  test('Sign in page is loaded', async ({ loginPage }) => {
     // Expect a title "to contain" a Sign in.
     await expect(loginPage.header).toBeVisible();
   });

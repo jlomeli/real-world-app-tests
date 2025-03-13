@@ -143,3 +143,6 @@ dist
 
 # Mac Storage
 .DS_Store
+
+# Authentication files
+/.auth
