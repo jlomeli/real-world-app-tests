@@ -146,3 +146,6 @@ dist
 
 # Authentication files
 /.auth
+
+# IDEA files
+.idea
